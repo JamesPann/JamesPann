@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Same sex marriage recognition in 2020",
-  "width": 500,
-  "height": 500,
+  "width": 400,
+  "height": 400,
   "projection": {"type": "equirectangular"},
   "data": {
       "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/custom.geo.json",
