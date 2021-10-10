@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Same sex marriage recognition in 2020",
+  "width": 300,
+  "height": 300,
+  "projection": {"type": "equirectangular"},
+  "data": {
+      "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/custom.geo.json",
+    "format": {"type": "topojson", "feature": "custom.geo"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/same%20sex.csv"
+        },
+        "key": "Entity",
+        "fields": ["Same"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Same",
+      "type": "nominal",
+      "scale": {"range": ["#e1e3e1", "#6fa6f2", "#0f60d1", "#c1d4f7", "#a5c4f0"]},
+      "title": "the title you want"
+    } ,
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Entity"},
+      {"field": "Same", "type": "nominal"}
+    ]
+    },
+   
+
+  "config": {}
+}
