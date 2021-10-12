@@ -1,0 +1,146 @@
+"","Entity","Code","Year","Births outside of marriage (% of all births)"
+"1","Australia","AUS",1991,23
+"2","Australia","AUS",1992,24
+"3","Australia","AUS",1993,24.9
+"4","Australia","AUS",1994,25.6
+"5","Australia","AUS",1995,26.6
+"6","Australia","AUS",1996,27.4
+"7","Australia","AUS",1997,28.1
+"8","Australia","AUS",1998,28.7
+"9","Australia","AUS",1999,29.2
+"10","Australia","AUS",2000,29.3
+"11","Australia","AUS",2001,30.7
+"12","Australia","AUS",2002,31.3
+"13","Australia","AUS",2003,31.6
+"14","Australia","AUS",2004,32.2
+"15","Australia","AUS",2005,32.2
+"16","Australia","AUS",2006,32.7
+"17","Australia","AUS",2007,33.3
+"18","Australia","AUS",2008,34.3
+"19","Australia","AUS",2009,34.5
+"20","Australia","AUS",2010,33.8
+"21","Australia","AUS",2011,34.2
+"22","Australia","AUS",2012,34.5
+"23","Australia","AUS",2013,34.4
+"24","Australia","AUS",2014,34.4
+"25","Chile","CHL",2002,52.2
+"26","Chile","CHL",2006,61.2
+"27","Chile","CHL",2007,63.1
+"28","Chile","CHL",2008,65.1
+"29","Chile","CHL",2009,67.4
+"30","Chile","CHL",2010,68.5
+"31","Chile","CHL",2011,69.3
+"32","Chile","CHL",2012,70.3
+"33","Chile","CHL",2013,71.1
+"34","Greece","GRC",1991,2.4
+"35","Greece","GRC",1992,2.6
+"36","Greece","GRC",1993,2.8
+"37","Greece","GRC",1994,2.9
+"38","Greece","GRC",1995,3
+"39","Greece","GRC",1996,3.3
+"40","Greece","GRC",1997,3.5
+"41","Greece","GRC",1998,3.8
+"42","Greece","GRC",1999,3.9
+"43","Greece","GRC",2000,4
+"44","Greece","GRC",2001,4.3
+"45","Greece","GRC",2002,4.4
+"46","Greece","GRC",2003,4.8
+"47","Greece","GRC",2004,5.1
+"48","Greece","GRC",2005,5.1
+"49","Greece","GRC",2006,5.3
+"50","Greece","GRC",2007,5.8
+"51","Greece","GRC",2008,5.9
+"52","Greece","GRC",2009,6.6
+"53","Greece","GRC",2010,7.3
+"54","Greece","GRC",2011,7.4
+"55","Greece","GRC",2012,7.6
+"56","Greece","GRC",2013,7
+"57","Greece","GRC",2014,8.2
+"58","Japan","JPN",1995,1.2
+"59","Japan","JPN",2000,1.6
+"60","Japan","JPN",2001,1.7
+"61","Japan","JPN",2002,1.9
+"62","Japan","JPN",2003,1.9
+"63","Japan","JPN",2004,2
+"64","Japan","JPN",2005,2
+"65","Japan","JPN",2006,2.1
+"66","Japan","JPN",2007,2
+"67","Japan","JPN",2008,2.1
+"68","Japan","JPN",2009,2.1
+"69","Japan","JPN",2010,2.1
+"70","Japan","JPN",2011,2.2
+"71","Japan","JPN",2012,2.2
+"72","Japan","JPN",2013,2.2
+"73","Japan","JPN",2014,2.3
+"74","Mexico","MEX",1991,35.2
+"75","Mexico","MEX",1992,36.1
+"76","Mexico","MEX",1993,37.8
+"77","Mexico","MEX",1994,37.8
+"78","Mexico","MEX",1995,37.1
+"79","Mexico","MEX",1996,38.1
+"80","Mexico","MEX",1997,39.3
+"81","Mexico","MEX",1998,40
+"82","Mexico","MEX",1999,41
+"83","Mexico","MEX",2000,41.6
+"84","Mexico","MEX",2001,44
+"85","Mexico","MEX",2002,45.7
+"86","Mexico","MEX",2003,46.3
+"87","Mexico","MEX",2004,48.2
+"88","Mexico","MEX",2005,50.1
+"89","Mexico","MEX",2006,50.7
+"90","Mexico","MEX",2007,53.4
+"91","Mexico","MEX",2008,55.4
+"92","Mexico","MEX",2009,58.3
+"93","Mexico","MEX",2010,59.4
+"94","Mexico","MEX",2011,60.7
+"95","Mexico","MEX",2012,62.3
+"96","Mexico","MEX",2013,63.7
+"97","Mexico","MEX",2014,64.9
+"98","Netherlands","NLD",1991,12
+"99","Netherlands","NLD",1992,12.4
+"100","Netherlands","NLD",1993,13.1
+"101","Netherlands","NLD",1994,14.3
+"102","Netherlands","NLD",1995,15.5
+"103","Netherlands","NLD",1996,17
+"104","Netherlands","NLD",1997,19.2
+"105","Netherlands","NLD",1998,20.8
+"106","Netherlands","NLD",1999,22.7
+"107","Netherlands","NLD",2000,24.9
+"108","Netherlands","NLD",2001,27.2
+"109","Netherlands","NLD",2002,29.1
+"110","Netherlands","NLD",2003,30.7
+"111","Netherlands","NLD",2004,32.5
+"112","Netherlands","NLD",2005,34.9
+"113","Netherlands","NLD",2006,37.1
+"114","Netherlands","NLD",2007,39.5
+"115","Netherlands","NLD",2008,41.2
+"116","Netherlands","NLD",2009,43.3
+"117","Netherlands","NLD",2010,44.3
+"118","Netherlands","NLD",2011,45.3
+"119","Netherlands","NLD",2012,46.6
+"120","Netherlands","NLD",2013,47.4
+"121","Netherlands","NLD",2014,48.7
+"122","United States","USA",1991,29.5
+"123","United States","USA",1992,30.1
+"124","United States","USA",1993,31
+"125","United States","USA",1994,32.6
+"126","United States","USA",1995,32.2
+"127","United States","USA",1996,32.4
+"128","United States","USA",1997,32.4
+"129","United States","USA",1998,32.8
+"130","United States","USA",1999,33
+"131","United States","USA",2000,33.2
+"132","United States","USA",2001,33.5
+"133","United States","USA",2002,34
+"134","United States","USA",2003,34.6
+"135","United States","USA",2004,35.8
+"136","United States","USA",2005,36.9
+"137","United States","USA",2006,38.5
+"138","United States","USA",2007,39.7
+"139","United States","USA",2008,40.6
+"140","United States","USA",2009,41
+"141","United States","USA",2010,40.8
+"142","United States","USA",2011,40.7
+"143","United States","USA",2012,40.7
+"144","United States","USA",2013,40.6
+"145","United States","USA",2014,40.2
