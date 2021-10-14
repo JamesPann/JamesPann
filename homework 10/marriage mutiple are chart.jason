@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Marriage rate",
+  "width": 300,
+  "height": 40,
+  "data": {"url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/Marriage%20new1.csv"},
+  "background": "white",
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": "Time",
+      "axis": {"grid": false,
+      "tickCount": 10 }
+    },
+    "y": {
+      "field": "Marriage rate",
+      "type": "quantitative",
+      "title": "",
+      "axis": {"grid": false,
+      "tickCount": 2}
+    },
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "legend": null
+    },
+    "row": {
+      "field": "Country",
+      "type": "nominal",
+      "title": "Country"
+    }
+  }
+}

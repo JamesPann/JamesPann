@@ -1,0 +1,30 @@
+{ "title":"NUMBER OF COUNTRIES WHERE HOMOSEXUALITY IS LEGAL",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/same.csv"},
+  "background": "#faf6e6",
+   "transform": [{
+    "filter": "datum.Year > 1990"
+  }],
+  "width": 600,
+  "height": 600,
+  "mark": "area",
+  "encoding": {
+    "y": {
+      "aggregate": "sum", "field": "number",
+      "title": "Proportion",
+      "stack":  "normalize"
+    },
+  "x": {
+                "field": "Year",
+                "type": "temporal",
+                "axis": { "title": "", "tickCount": 10 }
+            },
+    "color": {
+      "field": "type",
+      "scale": {"range": ["#f7c1a8", "#ffdc9c"]}
+    }, 
+      "tooltip": [
+            {"field": "number", "type": "quantitative", "format": ","}
+          ]
+  }
+}

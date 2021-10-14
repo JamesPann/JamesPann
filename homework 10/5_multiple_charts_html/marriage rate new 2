@@ -1,0 +1,65 @@
+{ "title":"Marriage rate",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 700,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/Marriage%20new1.csv"
+    }, 
+    "background": "#faf6e6",
+    "transform": [{
+      "filter": "datum.Year > 2000"
+    }],
+    "mark": "rect",
+    "encoding": {
+      "x": {
+        "timeUnit": "yearmonthdate",
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Time",
+        "axis": {"title": "year", "tickCount":3,
+          "format": "%Y",
+          "labelAngle": 0,
+          "labelOverlap": false,
+          "labelColor": {
+            "condition": {
+              "test": {
+                "timeUnit": "monthdate",
+                "field": "value",
+                "equal": {"month": 1, "date": 1}
+              },
+              "value": "black"
+            },
+            "value": null
+          },
+          "tickColor": {
+            "condition": {
+              "test": {
+                "timeUnit": "monthdate",
+                "field": "value",
+                "equal": {"month": 1, "date": 1}
+              },
+              "value": "black"
+            },
+            "value": null
+          }
+        }
+      },
+      "color": {
+        "aggregate": "sum",
+        "field": "Marriage rate",
+        "type": "quantitative",
+        "title": "Marriage rate",
+        "scale":{"domain": [4,5,6,7,8,9],
+        "range": ["#f5d2c1", "#f7c1a8", "#f5a17a","#f28450", "#f56622"]}
+      },
+      "y": {
+        "field": "Country",
+        "type": "nominal",
+        "title": null
+      }
+    , "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Marriage rate", "type": "quantitative", "format": ","}
+          ]}
+  }
+  
