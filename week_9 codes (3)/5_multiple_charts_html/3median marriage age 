@@ -1,0 +1,68 @@
+{   "title": "Women average age at marriage in USA between 1990 to 2017",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/marriage-women.csv" },
+    
+    "background": "#faf6e6",
+    "vconcat": [{
+        "width": 300,
+        "height": 300,
+        "mark": "area",
+        "encoding": {
+            "x": {
+                "field": "Year",
+                "type": "temporal",
+                "scale": { "domain": { "param": "brush" } },
+                "axis": { "title": "", "tickCount": 10 ,
+                "grid": false}
+            },
+            "y": { "field": "Estimated average age at marriage, women",
+             "type": "quantitative",
+             "title":"Average marriage age",
+             "axis": {"grid": false} },
+             "color": {
+      "field": "marriage",
+      "scale": {"range": ["#f7de83"]}},
+      "tooltip": [
+            {"field": "Year", "type": "temporal"},
+            {"field": "Estimated average age at marriage, women", "type": "quantitative", "format": ","}
+          ],    "column": {"title": "Women average age at marriage in USA between 1990 to 2017"}
+
+        }
+    }, {
+        "width": 600,
+        "height": 100,
+        "mark": "area",
+        "params": [{
+            "name": "brush",
+            "select": { "type": "interval", "encodings": ["x"] }
+        }],
+        "encoding": {
+            "x": {
+                "field": "Year",
+                "type": "temporal",
+                "axis": { "tickCount": 10,
+                 "grid": false}
+
+            },
+            "y": {
+                "field": "Estimated average age at marriage, women",
+                "type": "quantitative",
+                "axis": { "tickCount": 3, "grid": false,
+                 "title": "" }
+            },"color": {
+      "field": "marriage",
+      "scale": {"range": ["#f7de83"]}
+    },
+    "tooltip": [
+            {"field": "Year", "type": "temporal"},
+            {"field": "Estimated average age at marriage, women", "type": "quantitative", "format": ","}
+          ]
+        }
+    }],
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+}
+  

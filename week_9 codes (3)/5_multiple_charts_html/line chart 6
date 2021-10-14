@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 600,
+  "background": "#faf6e6",
+  "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
+  "data": {"url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/birth-111.csv"},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": "date",
+         "axis": { "grid": false}},
+    "y": {"field": "Births outside of marriage (% of all births)", "type": "quantitative", "title": "Births outside of marriage (% of all births)",
+    "axis": { "grid": true}},
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field":"symbol",
+        "type":"nominal",
+        "legend": null
+      },
+      "value": "grey"
+    },
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    }
+  },
+  "layer": [{
+    "description": "transparent layer to make it easier to trigger selection",
+    "params": [{
+      "name": "hover",
+      "value": [{"symbol": "Australia"}],
+      "select": {
+        "type": "point",
+        "fields": ["symbol"],
+        "on": "mouseover"
+      }
+    }],
+    "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+  }, {
+    "mark": "line"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "date"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "Births outside of marriage (% of all births)"}
+    },
+    "layer": [{
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"symbol", "type": "nominal"}}
+    }]
+  }],
+  "config": {"view": {"stroke": null}}
+}
