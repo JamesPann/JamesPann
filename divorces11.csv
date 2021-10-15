@@ -1,0 +1,186 @@
+,Entity,Code,Year,Divorce rate
+1,Australia,AUS,1981,2.80 
+2,Australia,AUS,1982,2.90 
+3,Australia,AUS,1983,2.80 
+4,Australia,AUS,1984,2.80 
+5,Australia,AUS,1985,2.50 
+6,Australia,AUS,1986,2.50 
+7,Australia,AUS,1987,2.40 
+8,Australia,AUS,1988,2.50 
+9,Australia,AUS,1989,2.50 
+10,Australia,AUS,1990,2.50 
+11,Australia,AUS,1991,2.60 
+12,Australia,AUS,1992,2.60 
+13,Australia,AUS,1993,2.70 
+14,Australia,AUS,1994,2.70 
+15,Australia,AUS,1995,2.80 
+16,Australia,AUS,1996,2.90 
+17,Australia,AUS,1997,2.80 
+18,Australia,AUS,1998,2.70 
+19,Australia,AUS,1999,2.80 
+20,Australia,AUS,2000,2.60 
+21,Australia,AUS,2001,2.80 
+22,Australia,AUS,2002,2.70 
+23,Australia,AUS,2003,2.70 
+24,Australia,AUS,2004,2.60 
+25,Australia,AUS,2005,2.60 
+26,Australia,AUS,2006,2.50 
+27,Australia,AUS,2007,2.30 
+28,Australia,AUS,2008,2.20 
+29,Australia,AUS,2009,2.30 
+30,Australia,AUS,2010,2.30 
+31,Australia,AUS,2011,2.20 
+32,Australia,AUS,2012,2.20 
+33,Australia,AUS,2013,2.10 
+34,Australia,AUS,2014,2.00 
+35,Australia,AUS,2015,2.00 
+36,Australia,AUS,2016,1.90 
+37,Australia,AUS,2017,2.00 
+38,Germany,DEU,1981,2.00 
+39,Germany,DEU,1982,2.10 
+40,Germany,DEU,1983,2.20 
+41,Germany,DEU,1984,2.30 
+42,Germany,DEU,1985,2.30 
+43,Germany,DEU,1986,2.30 
+44,Germany,DEU,1987,2.30 
+45,Germany,DEU,1988,2.30 
+46,Germany,DEU,1989,2.20 
+47,Germany,DEU,1990,1.90 
+48,Germany,DEU,1991,1.70 
+49,Germany,DEU,1992,1.70 
+50,Germany,DEU,1993,1.90 
+51,Germany,DEU,1994,2.00 
+52,Germany,DEU,1995,2.10 
+53,Germany,DEU,1996,2.10 
+54,Germany,DEU,1997,2.30 
+55,Germany,DEU,1998,2.30 
+56,Germany,DEU,1999,2.30 
+57,Germany,DEU,2000,2.40 
+58,Germany,DEU,2001,2.40 
+59,Germany,DEU,2002,2.50 
+60,Germany,DEU,2003,2.60 
+61,Germany,DEU,2004,2.60 
+62,Germany,DEU,2005,2.40 
+63,Germany,DEU,2006,2.30 
+64,Germany,DEU,2007,2.30 
+65,Germany,DEU,2008,2.30 
+66,Germany,DEU,2009,2.30 
+67,Germany,DEU,2010,2.30 
+68,Germany,DEU,2011,2.30 
+69,Germany,DEU,2012,2.20 
+70,Germany,DEU,2013,2.10 
+71,Germany,DEU,2014,2.10 
+72,Germany,DEU,2015,2.00 
+73,Germany,DEU,2016,2.00 
+74,Germany,DEU,2017,1.90 
+75,Japan,JPN,1981,1.30 
+76,Japan,JPN,1982,1.40 
+77,Japan,JPN,1983,1.50 
+78,Japan,JPN,1984,1.50 
+79,Japan,JPN,1985,1.40 
+80,Japan,JPN,1986,1.40 
+81,Japan,JPN,1987,1.30 
+82,Japan,JPN,1988,1.30 
+83,Japan,JPN,1989,1.30 
+84,Japan,JPN,1990,1.30 
+85,Japan,JPN,1991,1.40 
+86,Japan,JPN,1992,1.50 
+87,Japan,JPN,1993,1.50 
+88,Japan,JPN,1994,1.60 
+89,Japan,JPN,1995,1.60 
+90,Japan,JPN,1996,1.70 
+91,Japan,JPN,1997,1.80 
+92,Japan,JPN,1998,1.90 
+93,Japan,JPN,1999,2.00 
+94,Japan,JPN,2000,2.10 
+95,Japan,JPN,2001,2.30 
+96,Japan,JPN,2002,2.30 
+97,Japan,JPN,2003,2.30 
+98,Japan,JPN,2004,2.20 
+99,Japan,JPN,2005,2.10 
+100,Japan,JPN,2006,2.00 
+101,Japan,JPN,2007,2.00 
+102,Japan,JPN,2008,2.00 
+103,Japan,JPN,2009,2.00 
+104,Japan,JPN,2010,2.00 
+105,Japan,JPN,2011,1.90 
+106,Japan,JPN,2012,1.90 
+107,Japan,JPN,2013,1.80 
+108,Japan,JPN,2014,1.80 
+109,Japan,JPN,2015,1.80 
+110,Japan,JPN,2016,1.70 
+111,Japan,JPN,2017,1.70 
+112,South Korea,KOR,1981,0.60 
+113,South Korea,KOR,1982,0.70 
+114,South Korea,KOR,1983,0.70 
+115,South Korea,KOR,1984,0.90 
+116,South Korea,KOR,1985,0.90 
+117,South Korea,KOR,1986,0.90 
+118,South Korea,KOR,1987,1.00 
+119,South Korea,KOR,1988,1.00 
+120,South Korea,KOR,1989,1.00 
+121,South Korea,KOR,1990,1.10 
+122,South Korea,KOR,1991,1.10 
+123,South Korea,KOR,1992,1.20 
+124,South Korea,KOR,1993,1.30 
+125,South Korea,KOR,1994,1.40 
+126,South Korea,KOR,1995,1.50 
+127,South Korea,KOR,1996,1.70 
+128,South Korea,KOR,1997,2.00 
+129,South Korea,KOR,1998,2.50 
+130,South Korea,KOR,1999,2.50 
+131,South Korea,KOR,2000,2.50 
+132,South Korea,KOR,2001,2.80 
+133,South Korea,KOR,2002,3.00 
+134,South Korea,KOR,2003,3.40 
+135,South Korea,KOR,2004,2.90 
+136,South Korea,KOR,2005,2.60 
+137,South Korea,KOR,2006,2.50 
+138,South Korea,KOR,2007,2.50 
+139,South Korea,KOR,2008,2.40 
+140,South Korea,KOR,2009,2.50 
+141,South Korea,KOR,2010,2.30 
+142,South Korea,KOR,2011,2.30 
+143,South Korea,KOR,2012,2.30 
+144,South Korea,KOR,2013,2.30 
+145,South Korea,KOR,2014,2.30 
+146,South Korea,KOR,2015,2.10 
+147,South Korea,KOR,2016,2.10 
+148,South Korea,KOR,2017,2.10 
+149,United States,USA,1981,5.30 
+150,United States,USA,1982,5.00 
+151,United States,USA,1983,4.90 
+152,United States,USA,1984,5.00 
+153,United States,USA,1985,5.00 
+154,United States,USA,1986,4.90 
+155,United States,USA,1987,4.80 
+156,United States,USA,1988,4.80 
+157,United States,USA,1989,4.70 
+158,United States,USA,1990,4.70 
+159,United States,USA,1991,4.70 
+160,United States,USA,1992,4.80 
+161,United States,USA,1993,4.60 
+162,United States,USA,1994,4.60 
+163,United States,USA,1995,4.40 
+164,United States,USA,1996,4.30 
+165,United States,USA,1997,4.30 
+166,United States,USA,1998,4.20 
+167,United States,USA,1999,4.10 
+168,United States,USA,2000,4.10 
+169,United States,USA,2001,4.00 
+170,United States,USA,2002,3.90 
+171,United States,USA,2003,3.80 
+172,United States,USA,2004,3.70 
+173,United States,USA,2005,3.60 
+174,United States,USA,2006,3.70 
+175,United States,USA,2007,3.60 
+176,United States,USA,2008,3.50 
+177,United States,USA,2009,3.50 
+178,United States,USA,2010,3.60 
+179,United States,USA,2011,3.60 
+180,United States,USA,2012,3.40 
+181,United States,USA,2013,3.30 
+182,United States,USA,2014,3.20 
+183,United States,USA,2015,3.10 
+184,United States,USA,2016,3.00 
+185,United States,USA,2017,2.90 
