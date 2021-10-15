@@ -1,0 +1,122 @@
+,symbol,Code,Year,date,143153-annotations
+1,Australia,AUS,2001,11.80 ,Median duration
+2,Australia,AUS,2002,12.00 ,Median duration
+3,Australia,AUS,2003,12.20 ,Median duration
+4,Australia,AUS,2004,12.30 ,Median duration
+5,Australia,AUS,2005,12.60 ,Median duration
+6,Australia,AUS,2006,12.50 ,Median duration
+7,Australia,AUS,2007,12.50 ,Median duration
+8,Australia,AUS,2008,12.30 ,Median duration
+9,Australia,AUS,2009,12.30 ,Median duration
+10,Australia,AUS,2010,12.30 ,Median duration
+11,Australia,AUS,2011,12.20 ,Median duration
+12,Australia,AUS,2012,12.20 ,Median duration
+13,Australia,AUS,2013,12.10 ,Median duration
+14,Australia,AUS,2014,12.00 ,Median duration
+15,Australia,AUS,2015,12.10 ,Median duration
+16,Australia,AUS,2016,12.00 ,Median duration
+17,Australia,AUS,2017,12.00 ,Median duration
+18,Canada,CAN,2004,12.00 ,Median duration
+19,Canada,CAN,2005,12.00 ,Median duration
+20,Ecuador,ECU,2001,12.90 ,Mean duration
+21,Ecuador,ECU,2002,12.70 ,Mean duration
+22,Ecuador,ECU,2003,12.90 ,Mean duration
+23,Ecuador,ECU,2004,13.00 ,Mean duration
+24,Ecuador,ECU,2005,13.50 ,Mean duration
+25,Ecuador,ECU,2006,13.70 ,Mean duration
+26,Ecuador,ECU,2007,13.90 ,Mean duration
+27,Ecuador,ECU,2008,14.00 ,Mean duration
+28,Ecuador,ECU,2009,14.40 ,Mean duration
+29,Ecuador,ECU,2010,14.30 ,Mean duration
+30,Ecuador,ECU,2011,14.60 ,Mean duration
+31,Ecuador,ECU,2012,14.80 ,Mean duration
+32,Ecuador,ECU,2013,15.20 ,Mean duration
+33,Ecuador,ECU,2014,15.20 ,Mean duration
+34,Ecuador,ECU,2015,15.70 ,Mean duration
+35,Ecuador,ECU,2016,15.20 ,Mean duration
+36,Ecuador,ECU,2017,14.70 ,Mean duration
+37,Germany,DEU,2001,12.90 ,Mean duration
+38,Germany,DEU,2002,12.90 ,Mean duration
+39,Germany,DEU,2003,13.10 ,Mean duration
+40,Germany,DEU,2004,13.40 ,Mean duration
+41,Germany,DEU,2005,13.60 ,Mean duration
+42,Germany,DEU,2006,13.70 ,Mean duration
+43,Germany,DEU,2007,13.90 ,Mean duration
+44,Germany,DEU,2008,14.10 ,Mean duration
+45,Germany,DEU,2009,14.30 ,Mean duration
+46,Germany,DEU,2010,14.20 ,Mean duration
+47,Germany,DEU,2011,14.50 ,Mean duration
+48,Germany,DEU,2012,14.60 ,Mean duration
+49,Germany,DEU,2013,14.70 ,Mean duration
+50,Germany,DEU,2014,14.70 ,Mean duration
+51,Germany,DEU,2015,14.90 ,Mean duration
+52,Germany,DEU,2016,15.00 ,Mean duration
+53,Germany,DEU,2017,15.00 ,Mean duration
+54,New Zealand,NZL,2001,13.02 ,Median duration
+55,New Zealand,NZL,2002,12.93 ,Median duration
+56,New Zealand,NZL,2003,13.11 ,Median duration
+57,New Zealand,NZL,2004,13.21 ,Median duration
+58,New Zealand,NZL,2005,13.28 ,Median duration
+59,New Zealand,NZL,2006,13.24 ,Median duration
+60,New Zealand,NZL,2007,13.35 ,Median duration
+61,New Zealand,NZL,2008,13.39 ,Median duration
+62,New Zealand,NZL,2009,13.28 ,Median duration
+63,New Zealand,NZL,2010,13.65 ,Median duration
+64,New Zealand,NZL,2011,13.64 ,Median duration
+65,New Zealand,NZL,2012,13.60 ,Median duration
+66,New Zealand,NZL,2013,14.12 ,Median duration
+67,New Zealand,NZL,2014,13.74 ,Median duration
+68,New Zealand,NZL,2015,13.74 ,Median duration
+69,New Zealand,NZL,2016,13.91 ,Median duration
+70,New Zealand,NZL,2017,13.59 ,Median duration
+71,Singapore,SGP,2001,9.50 ,Median duration
+72,Singapore,SGP,2002,9.60 ,Median duration
+73,Singapore,SGP,2003,9.60 ,Median duration
+74,Singapore,SGP,2004,9.20 ,Median duration
+75,Singapore,SGP,2005,9.30 ,Median duration
+76,Singapore,SGP,2006,9.60 ,Median duration
+77,Singapore,SGP,2007,9.60 ,Median duration
+78,Singapore,SGP,2008,9.90 ,Median duration
+79,Singapore,SGP,2009,10.10 ,Median duration
+80,Singapore,SGP,2010,10.60 ,Median duration
+81,Singapore,SGP,2011,10.50 ,Median duration
+82,Singapore,SGP,2012,10.30 ,Median duration
+83,Singapore,SGP,2013,10.40 ,Median duration
+84,Singapore,SGP,2014,10.40 ,Median duration
+85,Singapore,SGP,2015,10.00 ,Median duration
+86,Singapore,SGP,2016,10.00 ,Median duration
+87,Singapore,SGP,2017,10.30 ,Median duration
+88,Sweden,SWE,2001,12.40 ,Mean duration
+89,Sweden,SWE,2002,12.40 ,Mean duration
+90,Sweden,SWE,2003,12.60 ,Mean duration
+91,Sweden,SWE,2004,12.30 ,Mean duration
+92,Sweden,SWE,2005,12.30 ,Mean duration
+93,Sweden,SWE,2006,12.00 ,Mean duration
+94,Sweden,SWE,2007,11.70 ,Mean duration
+95,Sweden,SWE,2008,11.40 ,Mean duration
+96,Sweden,SWE,2009,11.20 ,Mean duration
+97,Sweden,SWE,2010,10.80 ,Mean duration
+98,Sweden,SWE,2011,10.80 ,Mean duration
+99,Sweden,SWE,2012,10.60 ,Mean duration
+100,Sweden,SWE,2013,10.70 ,Mean duration
+101,Sweden,SWE,2014,10.80 ,Mean duration
+102,Sweden,SWE,2015,10.90 ,Mean duration
+103,Sweden,SWE,2016,11.10 ,Mean duration
+104,Sweden,SWE,2017,11.20 ,Mean duration
+105,United Kingdom,GBR,2001,10.90 ,Median duration
+106,United Kingdom,GBR,2002,11.10 ,Median duration
+107,United Kingdom,GBR,2003,11.30 ,Median duration
+108,United Kingdom,GBR,2004,11.50 ,Median duration
+109,United Kingdom,GBR,2005,11.60 ,Median duration
+110,United Kingdom,GBR,2006,11.60 ,Median duration
+111,United Kingdom,GBR,2007,11.70 ,Median duration
+112,United Kingdom,GBR,2008,11.50 ,Median duration
+113,United Kingdom,GBR,2009,11.40 ,Median duration
+114,United Kingdom,GBR,2010,11.40 ,Median duration
+115,United Kingdom,GBR,2011,11.50 ,Median duration
+116,United Kingdom,GBR,2012,11.50 ,Median duration
+117,United Kingdom,GBR,2013,11.70 ,Median duration
+118,United Kingdom,GBR,2014,11.70 ,Median duration
+119,United Kingdom,GBR,2015,11.90 ,Median duration
+120,United Kingdom,GBR,2016,12.00 ,Median duration
+121,United Kingdom,GBR,2017,12.20 ,Median duration
