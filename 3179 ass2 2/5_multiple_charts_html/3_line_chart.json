@@ -1,0 +1,76 @@
+{"title":{ "text":["The Duration of Marriages Ending in Divorce"],
+    "fontSize":20,
+    "anchor": "middle",
+    "color":"#0f0f0fc2"
+    },
+      "transform": [{"filter": "datum.symbol !== 'United Kingdom'"},
+      {"filter": "datum.symbol !== 'Ecuador'"},
+        {"filter": "datum.symbol !== 'Canada'"}],
+
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 450,
+  "height": 400,
+  "background": "#faf6e6",
+  "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
+  "data": {"url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/duration1.csv"},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": "Year",
+         "axis": { "grid": false,
+               "titleFontSize":14,
+                "titleColor":"#0f0f0fc2", 
+         "labelColor":"#878787",
+                     "labelFontSize":12 ,
+      "domainColor": "grey"}},
+    "y": {"field": "Duration", "type": "quantitative", "title": " Duration",
+    "axis": { "grid": true,
+          "titleFontSize":14,
+                "titleColor":"#0f0f0fc2", 
+                 "labelFontSize":12 ,
+                "labelColor":"#878787",
+                "domainColor": "grey"}},
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field":"symbol",
+        "type":"nominal",
+        "legend": null,
+        "scale": {"range": ["#fca479", "#f04848", "#d4c317","#9fd5f5", "#a48bf0"]}
+      },
+      "value": "grey"
+    },
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    }
+  },
+  "layer": [{
+    "description": "transparent layer to make it easier to trigger selection",
+    "params": [{
+      "name": "hover",
+      "value": [{"symbol": "Australia"}],
+      "select": {
+        "type": "point",
+        "fields": ["symbol"],
+        "on": "mouseover"
+      }
+    }],
+    "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+  }, {
+    "mark": "line"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "date"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "Duration"}
+    },
+    "layer": [{
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"symbol", "type": "nominal"}}
+    }]
+  }],
+  "config": {"view": {"stroke": "transparent"}}
+}
