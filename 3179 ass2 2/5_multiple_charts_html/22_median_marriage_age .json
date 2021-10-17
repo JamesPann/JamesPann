@@ -1,5 +1,5 @@
 {     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": { "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/marriage-women.csv" },
+    "data": { "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/marriage-women11.csv" },
     "title":{ "text":["Women Average Age at Marriage in USA between 1990 to 2017"],
     "fontSize":20,
     "anchor": "middle",
@@ -21,7 +21,7 @@
                 "labelColor":"#878787"
 }
             },
-            "y": { "field": "Estimated average age at marriage, women",
+            "y": { "field": "Age at marriage",
              "type": "quantitative",
              "title":"Average marriage age",
              "axis": {"grid": false,
@@ -34,7 +34,7 @@
       "scale": {"range": ["#fab28e"]}},
       "tooltip": [
             {"field": "Year", "type": "temporal"},
-            {"field": "Estimated average age at marriage, women", "type": "quantitative", "format": ","}
+            {"field": "Age at marriage", "type": "quantitative", "format": ","}
           ],    "column": {"title": "Women average age at marriage in USA between 1990 to 2017"}
 
         }
@@ -59,7 +59,7 @@
 
             },
             "y": {
-                "field": "Estimated average age at marriage, women",
+                "field": "Age at marriage",
                 "type": "quantitative",
                 "axis": { "tickCount": 3, "grid": false,
                  "title": "",
@@ -73,7 +73,7 @@
     },
     "tooltip": [
             {"field": "Year", "type": "temporal"},
-            {"field": "Estimated average age at marriage, women", "type": "quantitative", "format": ","}
+            {"field": "Age at marriage", "type": "quantitative", "format": ","}
           ]
         }
     }],
