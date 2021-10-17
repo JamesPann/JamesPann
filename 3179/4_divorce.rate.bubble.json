@@ -1,0 +1,82 @@
+{"title":{ "text":["Divorce Rate and GDP per Capital"],
+    "fontSize":18,
+    "anchor": "middle",
+    "color":"#0f0f0fc2"
+    },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/divorcess.csv"
+  },
+  "background": "#faf6e6",
+  "encoding": {
+    "x": {
+      "field": "Divorce rate",
+      "type": "quantitative",
+      "title": "Divorce rate",
+      "axis": { 
+                "grid": false}
+    },
+    "y": {
+      "field": "GDP per capital",
+      "type": "quantitative"
+    }
+  },
+  "layer": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "Population",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000000, 10000000, 30000000,50000000, 100000000, 300000000],
+            "range": [10, 20, 60, 100, 250, 500, 850]
+          },
+          "legend": {"format": ".1s",
+          "titleFontSize":14,
+          "titleColor":"#0f0f0fc2"}
+        },
+        "color": {
+          "field": "Region",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "range": [
+              "#e41a1c",
+              "#984ea3",
+              "#ff7f00",
+              "#a6cee3",
+              "#377eb8",
+              "#a65628"
+            ]
+            },
+                  "legend":{"labelFontSize":12,
+      "labelLimit":1000,
+      "titleFontSize":14,
+      "titleFont":"san serif",
+      "titleColor":"#0f0f0fc2"}
+      
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Divorce rate", "type": "quantitative", "format": ","},
+          {"field": "GDP per capital", "type": "quantitative", "format": ","}
+        ]
+      }
+    }
+    ]
+}
+
+The average age at marriage rose from 23.9 to 27.4 years. 
+This may mean that with the improvement of material life, women are more inclined to 
+pursue what they like when they are young. This may postpone their marriage age

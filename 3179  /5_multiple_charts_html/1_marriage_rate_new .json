@@ -1,0 +1,81 @@
+{"title":{ "text":["Marriage Rate per 1000 from 1990 to 2017"],
+    "fontSize":20,
+    "anchor": "middle",
+    "color":"#0f0f0fc2"
+    },
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/Marriage%20new1.csv"
+    }, 
+    "background": "#faf6e6",
+    "transform": [{
+      "filter": "datum.Year > 2000"
+    }],
+    "mark": "rect",
+    "encoding": {
+      "x": {
+        "timeUnit": "yearmonthdate",
+        "field": "Year",
+        "type": "ordinal",
+        "title": "time",
+        "axis": {"title": "Year", "tickCount":3,  
+            "titleFontSize":14,
+                "titleColor":"#0f0f0fc2",           
+           "labelFontSize":12 ,
+          "format": "%Y",
+          "labelAngle": -90,
+          "labelOverlap": false,
+          "labelColor": {      
+            "condition": {
+              "test": {
+                "timeUnit": "monthdate",
+                "field": "value",
+                "equal": {"month": 1, "date": 1}
+              },
+              "value": "#878787"
+            },
+            "value": null
+          },
+          "tickColor": {
+            "condition": {
+              "test": {
+                "timeUnit": "monthdate",
+                "field": "grey",
+                "equal": {"month": 1, "date": 1}
+              },
+              "value": "black"
+            },
+            "value": null
+          }
+        }
+      },
+      "color": {
+        "aggregate": "sum",
+        "field": "Marriage rate",
+        "type": "quantitative",
+        "title": "Marriage per 1000",
+        "scale":{"domain": [4,5,6,7,8,9],
+        "range": ["#f5d2c1", "#f7c1a8", "#f5a17a","#f28450", "#f56622"]},
+      "legend":{"labelFontSize":12,
+      "labelLimit":1000,
+      "titleFontSize":14,
+      "titleFont":"san serif",
+      "titleColor":"#0f0f0fc2"
+      }
+      },
+      "y": {
+        "field": "Country",
+        "type": "nominal",
+        "title": null,
+        "axis":{ 
+                "domainColor": "grey",
+                                "labelFontSize":12 ,
+                "labelColor":"#878787"}
+      }
+    , "tooltip": [ {"field": "Year", "type": "temporal"},
+            {"field": "Country", "type": "nominal"},
+            {"field": "Marriage rate", "type": "quantitative", "format": ","}
+          ]}
+  }
