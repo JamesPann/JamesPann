@@ -1,0 +1,74 @@
+{
+  "title":{ "text":["Divorce rate per 1000 from 1980 to 2017"],
+    "fontSize":18,
+    "anchor": "middle",
+    "color":"#0f0f0fc2"
+    },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Marriage rate",
+  "width": 450,
+  "height": 63,
+  "data": {"url": "https://raw.githubusercontent.com/JamesPann/JamesPann/main/divorces11.csv"},
+  "background": "#faf6e6",
+  "mark": {
+    "type": "point",
+    "line": {"color": "darkgreen"},
+    "color": {
+      "x1": 1,
+      "y1": 1,
+      "x2": 1,
+      "y2": 0,
+      "gradient": "linear",
+      "stops": [
+        {"offset": 0, "color": "darkblue"},
+        {"offset": 1, "color": "black"}
+      ]
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": "Time",
+      "axis": {"grid": false,
+      "tickCount": 10 ,
+                "labelFontSize":12 ,
+                "labelColor":"#878787",
+                "domainColor": "grey",
+                "titleFontSize":14,
+                "titleColor":"#0f0f0fc2"}
+    },
+    "y": {
+      "field": "Divorce rate",
+      "type": "quantitative",
+      "title": "",
+      "axis": {"grid": false,
+      "tickCount": 2,
+                  "labelFontSize":12 ,
+                "labelColor":"#878787",
+                "domainColor": "grey",
+                 "titleFontSize":2,
+                "titleColor":"#0f0f0fc2"}
+    },
+    "color": {
+      "scale": {"range": ["#9fd5f5", "#fca479", "#f56f2c","#a48bf0", "#f7b316"]},
+      "field": "Entity",
+      "type": "nominal",
+      "legend": null
+    },
+    "row": {
+      "field": "Entity",
+      "type": "nominal",
+      "title": ""
+    },
+    "tooltip": [ {"field": "Year", "type": "temporal"},
+            {"field": "Divorce rate", "type": "quantitative", "format": ","}
+          ]
+  },
+    "config": {"axis": {"grid": false},
+    "view": {"stroke": "transparent"}}
+
+}
+
+
+
